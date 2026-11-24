@@ -12,6 +12,13 @@ On an X/O board, capture (flip to X) every O region completely enclosed by X. Re
 
 **Complexity:** O(R·C) time; recursion up to region size.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
